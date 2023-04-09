@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		944A8F108AC72CB06C982EA8 /* Pods_DotaScience.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977ADBD6EF65A2483F3C7E2B /* Pods_DotaScience.framework */; };
+		D829489429DD46F9004D067A /* DTTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D829489329DD46F9004D067A /* DTTableViewCell.swift */; };
+		D884451229C58926000DEF64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D884451129C58926000DEF64 /* AppDelegate.swift */; };
+		D884451429C58926000DEF64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D884451329C58926000DEF64 /* SceneDelegate.swift */; };
+		D884451629C58926000DEF64 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D884451529C58926000DEF64 /* MainViewController.swift */; };
+		D884451B29C58927000DEF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D884451A29C58927000DEF64 /* Assets.xcassets */; };
+		D884451E29C58927000DEF64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D884451C29C58927000DEF64 /* LaunchScreen.storyboard */; };
+		D884454629D42C18000DEF64 /* DSHeroesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D884454529D42C18000DEF64 /* DSHeroesViewController.swift */; };
+		D884454829D42C2E000DEF64 /* DSTeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D884454729D42C2E000DEF64 /* DSTeamsViewController.swift */; };
+		D884454A29D42C74000DEF64 /* DSPlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D884454929D42C74000DEF64 /* DSPlayersViewController.swift */; };
+		D884454C29D42C83000DEF64 /* DSSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D884454B29D42C83000DEF64 /* DSSettingsViewController.swift */; };
+		D884454F29D43611000DEF64 /* DSHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D884454E29D43611000DEF64 /* DSHeroes.swift */; };
+		D89F5D2C29DED92D008B9B6C /* DTCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F5D2B29DED92D008B9B6C /* DTCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C6EC0974CE8BE916B2A7A5C /* Pods-DotaScience.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DotaScience.debug.xcconfig"; path = "Target Support Files/Pods-DotaScience/Pods-DotaScience.debug.xcconfig"; sourceTree = "<group>"; };
+		6A6FBF254751EE3607F0A35A /* Pods-DotaScience.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DotaScience.release.xcconfig"; path = "Target Support Files/Pods-DotaScience/Pods-DotaScience.release.xcconfig"; sourceTree = "<group>"; };
+		977ADBD6EF65A2483F3C7E2B /* Pods_DotaScience.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DotaScience.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D829489329DD46F9004D067A /* DTTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTTableViewCell.swift; sourceTree = "<group>"; };
+		D884450E29C58926000DEF64 /* DotaScience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotaScience.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D884451129C58926000DEF64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D884451329C58926000DEF64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D884451529C58926000DEF64 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D884451A29C58927000DEF64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D884451D29C58927000DEF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D884451F29C58927000DEF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D884454529D42C18000DEF64 /* DSHeroesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSHeroesViewController.swift; sourceTree = "<group>"; };
+		D884454729D42C2E000DEF64 /* DSTeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTeamsViewController.swift; sourceTree = "<group>"; };
+		D884454929D42C74000DEF64 /* DSPlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPlayersViewController.swift; sourceTree = "<group>"; };
+		D884454B29D42C83000DEF64 /* DSSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSSettingsViewController.swift; sourceTree = "<group>"; };
+		D884454E29D43611000DEF64 /* DSHeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSHeroes.swift; sourceTree = "<group>"; };
+		D89F5D2B29DED92D008B9B6C /* DTCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D884450B29C58926000DEF64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944A8F108AC72CB06C982EA8 /* Pods_DotaScience.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E0ABFD9E5C999D948F9AFA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C6EC0974CE8BE916B2A7A5C /* Pods-DotaScience.debug.xcconfig */,
+				6A6FBF254751EE3607F0A35A /* Pods-DotaScience.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D829489229DD46E5004D067A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D829489329DD46F9004D067A /* DTTableViewCell.swift */,
+				D89F5D2B29DED92D008B9B6C /* DTCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D884450529C58926000DEF64 = {
+			isa = PBXGroup;
+			children = (
+				D884451029C58926000DEF64 /* DotaScience */,
+				D884450F29C58926000DEF64 /* Products */,
+				1E0ABFD9E5C999D948F9AFA2 /* Pods */,
+				DD1D3899F4C0C8AEB74D5C52 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D884450F29C58926000DEF64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D884450E29C58926000DEF64 /* DotaScience.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D884451029C58926000DEF64 /* DotaScience */ = {
+			isa = PBXGroup;
+			children = (
+				D829489229DD46E5004D067A /* Views */,
+				D884454D29D435FA000DEF64 /* Models */,
+				D884451129C58926000DEF64 /* AppDelegate.swift */,
+				D884451329C58926000DEF64 /* SceneDelegate.swift */,
+				D884454429D42BB4000DEF64 /* Core */,
+				D884451A29C58927000DEF64 /* Assets.xcassets */,
+				D884451C29C58927000DEF64 /* LaunchScreen.storyboard */,
+				D884451F29C58927000DEF64 /* Info.plist */,
+			);
+			path = DotaScience;
+			sourceTree = "<group>";
+		};
+		D884454429D42BB4000DEF64 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D884451529C58926000DEF64 /* MainViewController.swift */,
+				D884454529D42C18000DEF64 /* DSHeroesViewController.swift */,
+				D884454729D42C2E000DEF64 /* DSTeamsViewController.swift */,
+				D884454929D42C74000DEF64 /* DSPlayersViewController.swift */,
+				D884454B29D42C83000DEF64 /* DSSettingsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D884454D29D435FA000DEF64 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D884454E29D43611000DEF64 /* DSHeroes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD1D3899F4C0C8AEB74D5C52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				977ADBD6EF65A2483F3C7E2B /* Pods_DotaScience.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D884450D29C58926000DEF64 /* DotaScience */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D884452229C58927000DEF64 /* Build configuration list for PBXNativeTarget "DotaScience" */;
+			buildPhases = (
+				BEF16E321015153FAA7D5055 /* [CP] Check Pods Manifest.lock */,
+				D884450A29C58926000DEF64 /* Sources */,
+				D884450B29C58926000DEF64 /* Frameworks */,
+				D884450C29C58926000DEF64 /* Resources */,
+				55DE8A1E898EF5D70073A6D3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DotaScience;
+			productName = DotaScience;
+			productReference = D884450E29C58926000DEF64 /* DotaScience.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D884450629C58926000DEF64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D884450D29C58926000DEF64 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = D884450929C58926000DEF64 /* Build configuration list for PBXProject "DotaScience" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D884450529C58926000DEF64;
+			productRefGroup = D884450F29C58926000DEF64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D884450D29C58926000DEF64 /* DotaScience */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D884450C29C58926000DEF64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D884451E29C58927000DEF64 /* LaunchScreen.storyboard in Resources */,
+				D884451B29C58927000DEF64 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55DE8A1E898EF5D70073A6D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DotaScience/Pods-DotaScience-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DotaScience/Pods-DotaScience-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DotaScience/Pods-DotaScience-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEF16E321015153FAA7D5055 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DotaScience-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D884450A29C58926000DEF64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D884454A29D42C74000DEF64 /* DSPlayersViewController.swift in Sources */,
+				D884451629C58926000DEF64 /* MainViewController.swift in Sources */,
+				D89F5D2C29DED92D008B9B6C /* DTCollectionViewCell.swift in Sources */,
+				D884451229C58926000DEF64 /* AppDelegate.swift in Sources */,
+				D884451429C58926000DEF64 /* SceneDelegate.swift in Sources */,
+				D884454829D42C2E000DEF64 /* DSTeamsViewController.swift in Sources */,
+				D829489429DD46F9004D067A /* DTTableViewCell.swift in Sources */,
+				D884454F29D43611000DEF64 /* DSHeroes.swift in Sources */,
+				D884454C29D42C83000DEF64 /* DSSettingsViewController.swift in Sources */,
+				D884454629D42C18000DEF64 /* DSHeroesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D884451C29C58927000DEF64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D884451D29C58927000DEF64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D884452029C58927000DEF64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D884452129C58927000DEF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D884452329C58927000DEF64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C6EC0974CE8BE916B2A7A5C /* Pods-DotaScience.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DotaScience/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DotaScience";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D884452429C58927000DEF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6FBF254751EE3607F0A35A /* Pods-DotaScience.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DotaScience/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DotaScience";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D884450929C58926000DEF64 /* Build configuration list for PBXProject "DotaScience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D884452029C58927000DEF64 /* Debug */,
+				D884452129C58927000DEF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D884452229C58927000DEF64 /* Build configuration list for PBXNativeTarget "DotaScience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D884452329C58927000DEF64 /* Debug */,
+				D884452429C58927000DEF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D884450629C58926000DEF64 /* Project object */;
+}
